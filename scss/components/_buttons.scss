@@ -1,0 +1,30 @@
+@use "../custom" as *;
+
+.cover {
+    .btn-rounded{
+        background:#E50914;
+        color:$white;
+        padding: 4px 9px;
+        border-color: #E50914;  
+        border-radius: 4px;
+        font-family: Arial, Helvetica, sans-serif;   
+        
+    }
+    .btn-get-started{
+        background:$red;
+        color: $white;
+        border-color: $red;
+        &:hover{
+            $pink:    #d63384 !important;
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .netflix-brand{
+        margin-right: -6rem;
+    }
+    .btn-rounded {
+        margin-right: -3em;
+    }
+}

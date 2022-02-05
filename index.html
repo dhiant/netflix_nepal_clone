@@ -5,64 +5,98 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- linking our css file -->
-    <link rel="stylesheet" href="./assests/css/style.css" />
-    <!-- linking our fontawesome file -->
-    <link rel="stylesheet" href="./assests/css/fontawesome.css" />
     <title>Netflix Nepal</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- linking our css file -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- linking our fontawesome file -->
   </head>
   <body>
     <!-- Start the cover section -->
-    <div class="cover">
-      <div class="card our-card">
-        <img
-          src="./assests/img/netflix-cover.jpg"
-          class="card-img"
-          alt="netflix cover "
-        />
-      </div>
-      <div class="top-section d-flex justify-content-between">
-        <div class="brand align-content-start">
-          <img
-            src="./assests/img/netflix-brand.png"
-            class="img-fluid"
-            alt="netflix logo"
-            width="150"
-            height="60"
-          />
-        </div>
-        <div class="login-box align-content-end">
-          <button class="rounded-pill btn-rounded">Sign In</button>
-        </div>
-      </div>
-      <div class="container get-started mx-auto">
-        <h1 class="fw-bolder">Unlimited movies,TV shows,and more.</h1>
-        <h5 class="fs-4">Watch anywhere.Cancel anytime.</h5>
-        <p class="fs-5">
-          Ready to watch ? Enter your email to create or restart your
-          membership.
-        </p>
-        <div class="input-group mb-3">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Email Address"
-            aria-label="Example text with button addon"
-            aria-describedby="button-addon1"
-          />
-          <button
-            class="btn btn-outline-success btn-get-started"
-            type="button"
-            id="button-addon1"
-          >
-            Get Started
-            <span><i class="fas fa-chevron-right"></i></span>
-          </button>
+    <div class="cover ">
+      <div class="card bg-dark text-white">
+        <!-- <img src="./assets/img/netflix-cover.jpg" class="card-img" alt="netflix movies card"> -->
+        <div class="card-img-overlay">
+          <div class="header d-flex justify-content-between align-items-center">
+            <div class="netflix-brand mt-n4">
+              <img src="./assets/img/netflix-brand.png" alt="Netflix Brand">
+            </div>
+            <div class="login-box  mt-n4 me-5 me-sm-n2">
+              <button class="btn-rounded">Sign In</button>
+            </div>
+          </div>
+          <div class="container get-started mx-auto">
+            <div class="get-started-heading text-center">
+              <h1 class="fw-bolder ps-3">Unlimited movies,TV shows,and more.</h1>
+              <!-- <h1 class="fw-bolder ps-5 "></h1> -->
+            </div>
+            <h5 class="fs-5 mx-auto pt-2 pb-2 text-center">Watch anywhere. Cancel anytime.</h5>
+            <p class="fs-6 ms-md-5 ms-xs-1 pe-xs-1 ps-2 mx-auto text-center">
+              Ready to watch ? Enter your email to create or restart your
+              membership.
+            </p>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Email Address"
+                aria-label="Example text with button addon"
+                aria-describedby="button-addon1"
+              />
+              <button
+                class="btn btn-outline-success btn-get-started"
+                type="button"
+                id="button-addon1"
+              >
+                Get Started
+                <span><i class="fas fa-chevron-right"></i></span>
+              </button>
+            </div>
         </div>
       </div>
     </div>
+    <!-- <div class="top-section d-flex justify-content-between">
+      <div class="brand align-content-start">
+        <img
+          src="./assets/img/netflix-brand.png"
+          class="img-fluid"
+          alt="netflix logo"
+          width="150"
+          height="60"
+        />
+      </div>
+      <div class="login-box align-content-end">
+        <button class="rounded-pill btn-rounded">Sign In</button>
+      </div>
+    </div>
+    <div class="container get-started mx-auto">
+      <h1 class="fw-bolder">Unlimited movies,TV shows,and more.</h1>
+      <h5 class="fs-4">Watch anywhere.Cancel anytime.</h5>
+      <p class="fs-5">
+        Ready to watch ? Enter your email to create or restart your
+        membership.
+      </p>
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Email Address"
+          aria-label="Example text with button addon"
+          aria-describedby="button-addon1"
+        />
+        <button
+          class="btn btn-outline-success btn-get-started"
+          type="button"
+          id="button-addon1"
+        >
+          Get Started
+          <span><i class="fas fa-chevron-right"></i></span>
+        </button>
+      </div>
+    </div> -->
     <!-- Start the tv box section -->
-    <div class="row tv mx-auto d-flex align-items-center">
+    <!-- <div class="row tv mx-auto d-flex align-items-center">
       <div class="col-sm-12 col-md-6">
         <div class="tv-content">
           <h1>Enjoy on your TV.</h1>
@@ -84,9 +118,9 @@
           </video>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Start the Downloading Section -->
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
       <div class="row text-white mx-auto d-flex align-items-center">
         <div class="col-md-4 col-lg-6 d-flex position-relative">
           <div class="mobile-box">
@@ -115,7 +149,7 @@
           </h6>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- linking bootstrap js -->
     <script

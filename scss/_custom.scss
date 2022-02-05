@@ -1,0 +1,25 @@
+// importing theme color
+$primary:       #000;
+$border-color:     #222;
+$text-secondary-color:#757575;
+$red:#E50914;
+$pink:    #d63384;
+// background gradient
+$gradient: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.7)) ,url("../img/netflix-cover.jpg") !default;
+
+// negative margin/padding
+$enable-negative-margins: true;
+// importing all grey and white file
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 ;
+$black:    #000 ;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
