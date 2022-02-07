@@ -12040,6 +12040,11 @@ textarea.form-control-lg {
     margin-right: -3em;
   }
 }
+@media (min-width: 768px) {
+  .btn-rounded {
+    margin-right: 3rem;
+  }
+}
 .cover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.7)), url("../img/netflix-cover.jpg");
   background-size: cover;
@@ -12066,6 +12071,32 @@ textarea.form-control-lg {
 }
 .cover .get-started p {
   font-size: 0.5rem;
+}
+
+.tv-content {
+  padding: calc(1.325rem + 0.9vw);
+  margin-top: 90px;
+}
+
+.img-box {
+  width: 100%;
+  max-width: 90%;
+}
+.img-box img {
+  position: relative;
+  z-index: 2;
+}
+
+.video-box {
+  width: 65%;
+  max-width: 65%;
+  top: 21%;
+  right: 11%;
+  left: 13%;
+}
+.video-box video {
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

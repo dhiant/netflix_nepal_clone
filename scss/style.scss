@@ -1,8 +1,8 @@
 @use "./custom" as *;
 
-
 // importing all the components
 @use "./components/buttons" as *;
 
 // importing all sections
 @use "./sections/cover" as *;
+@use "./sections/tv-content" as *;

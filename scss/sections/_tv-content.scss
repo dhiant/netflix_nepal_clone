@@ -1,0 +1,25 @@
+@use "../custom" as *;
+
+.tv-content {
+  padding: rfs-fluid-value(2rem);
+  margin-top: 90px;
+}
+.img-box {
+  width: 100%;
+  max-width: 90%;
+  img{
+    position: relative;
+    z-index: 2;
+  }
+}
+.video-box {
+  width: 65%;
+  max-width: 65%;
+  top: 21%;
+  right: 11%;
+  left: 13%;
+  video {
+    width: 100%;
+    height: 100%;
+  }
+}

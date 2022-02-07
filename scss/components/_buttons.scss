@@ -28,3 +28,8 @@
         margin-right: -3em;
     }
 }
+@include media-breakpoint-up(md) {
+    .btn-rounded{
+        margin-right: 3rem;
+    }
+}
