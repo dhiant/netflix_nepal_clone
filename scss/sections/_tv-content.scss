@@ -2,7 +2,10 @@
 
 .tv-content {
   padding: rfs-fluid-value(2rem);
-  margin-top: 90px;
+  h5{
+    margin-top: 1rem;
+    text-align: center;
+  }
 }
 .img-box {
   width: 100%;
@@ -21,5 +24,15 @@
   video {
     width: 100%;
     height: 100%;
+  }
+}
+@include media-breakpoint-down(lg){
+  .tv-content{
+    margin-top: 1rem;
+  }
+}
+@include media-breakpoint-up(lg){
+  .tv-content{
+    margin-top: 5rem;
   }
 }

@@ -1,0 +1,47 @@
+@use "../custom" as *;
+#downloading {
+    border-bottom: 8px solid #222;
+}
+.mobile-box{
+    img{
+        max-width: 380px;
+        width: 100%;
+    }
+    .mobile-box-moviecard{
+        border: 2px solid rgba(255,255,255,.25);
+        border-radius: 15px;
+        // position: absolute;
+        // top: 67%;
+        // left: 14%;
+        background: black;
+        max-width: 258px;
+         width: 90%;
+         height: 85px;
+        img{
+            padding: 12px;
+            width: 29%;
+            max-width: 89px;
+        }
+        h6{
+           color:  #0071eb;
+        }   
+    }
+}
+.mobile-box-moviecard::after{
+    content: '';
+    background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif");
+    width: 3rem;
+    height: 3rem;
+    display: block;
+    background-size: 100%;
+}
+
+
+@include media-breakpoint-down(sm) {
+    .downloading-movies{
+        display:flex;
+        flex-direction: column-reverse;
+        margin-top: 3rem;
+        text-align: center;
+    }
+}
