@@ -12141,6 +12141,7 @@ textarea.form-control-lg {
     max-width: 65%;
   }
 
+
   .email-box {
     margin-top: 2rem;
   }
@@ -12224,6 +12225,15 @@ textarea.form-control-lg {
   height: 3rem;
   display: block;
   background-size: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .downloading-movies {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 3rem;
+    text-align: center;
+  }
 }
 @media only screen and (max-width:400px) {
   .mobile-box{
@@ -12316,12 +12326,39 @@ textarea.form-control-lg {
     left:29%;
   }
 }
-@media (max-width: 575.98px) {
-  .downloading-movies {
-    display: flex;
-    flex-direction: column-reverse;
-    margin-top: 3rem;
+#watch-everywhere {
+  border-bottom: 8px solid #222;
+}
+
+@media (max-width: 767.98px) {
+  #watch-everywhere h1 {
+    font-size: 2rem;
     text-align: center;
+  }
+  #watch-everywhere p {
+    font-size: 1.15rem;
+    padding: 0 0.3rem;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  #watch-everywhere h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  #watch-everywhere p {
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  #watch-everywhere h1 {
+    text-align: start;
+  }
+  #watch-everywhere p {
+    text-align: start;
+    font-size: 1.2rem;
+    font-weight: 600;
   }
 }
 
