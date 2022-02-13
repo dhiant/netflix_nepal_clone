@@ -1,0 +1,34 @@
+@use '../custom' as *;
+#faq{
+    border-bottom: 8px solid #222;
+}
+
+.accordion{
+    max-width: 60%;
+    margin-bottom: rfs-fluid-value(2rem);
+    .accordion-item{
+        background: $border-color;
+        color: $white;
+        margin-bottom: 0.35rem;
+        .accordion-button:not(.collapsed) {
+            color: $white;
+            background-color: $border-color;
+        }
+        .accordion-button:not(.collapsed)::after{
+            transform: rotate(0deg);
+        }
+    }
+}
+.kids-get-started{
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: rfs-fluid-value(4rem);
+}
+@include media-breakpoint-down(sm) {
+    .accordion{
+        max-width: 100%;
+    }
+    .kids-get-started{
+        max-width: 90%;
+    }
+}

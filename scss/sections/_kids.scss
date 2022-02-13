@@ -1,0 +1,30 @@
+@use "../custom" as *;
+#kids{
+    border-bottom: 8px solid #222;
+}
+
+@include media-breakpoint-down(md) {
+    .kids-box{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .kids-image{
+        margin-left: rfs-fluid-value(3rem);
+    }
+    .kids-content{
+        h1{
+            text-align: center;
+        }
+        p{
+            margin-left: 1rem;
+            text-align: center;
+        }
+    }
+}
+@include media-breakpoint-down(sm) {
+    .kids-image{
+        margin-left: rfs-fluid-value(4rem);
+    }
+}
