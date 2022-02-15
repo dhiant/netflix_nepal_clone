@@ -1,0 +1,32 @@
+@use "../custom" as *;
+#footer{
+    color: $text-secondary-color;
+    p{
+        margin-top: rfs-fluid-value(3rem);
+    }
+    .footer-title{
+        // max-width: 90%;
+            a{
+                text-decoration: none;
+            }
+            li{
+                list-style: none;
+                font-size:rfs-fluid-value(0.83rem);
+                color: $text-secondary-color;
+            }
+            p:last-child{
+                font-size:rfs-fluid-value(0.83rem);
+            }
+        // }
+    }
+}
+
+@include media-breakpoint-down(sm){
+    .footer-title{
+        display: flex;
+        flex-direction: row;
+        div{
+            width: 50%;
+        }
+    }
+}

@@ -12113,11 +12113,10 @@ textarea.form-control-lg {
   }
 }
 #top-section {
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url("/assets/img/netflix-cover.jpg") !important;
+  border-bottom: 8px solid #222;
 }
 
 .cover {
-  background-image: var(--bs-gradient);
   width: 100%;
   height: auto;
 }
@@ -12231,7 +12230,97 @@ textarea.form-control-lg {
   display: block;
   background-size: 100%;
 }
+@media only screen and (max-width:400px) {
+  .mobile-box{
+    position:relative;
+  }
+  .mobile-box-moviecard{
+    position:absolute;
+    top:67%;
+    left:12%;
+  }
+}
 
+@media only screen and (min-width:401px) and (max-width:450px) {
+  .mobile-box{
+    position:relative;
+  }
+  .mobile-box-moviecard{
+    position:absolute;
+    top:67%;
+    left:16%;
+  }
+}
+@media only screen and (min-width:451px) and (max-width:475px) {
+  .mobile-box{
+    position:relative;
+  }
+  .mobile-box-moviecard{
+    position:absolute;
+    top:67%;
+    left:21%;
+  }
+}
+@media only screen and (min-width:476px) and (max-width:699px) {
+  .mobile-box{
+    position:relative;
+  }
+  .mobile-box-moviecard{
+    position:absolute;
+    top:67%;
+    left:24%;
+  }
+}
+@media only screen and (min-width:699.1px) and (max-width:767px) {
+  .mobile-box{
+    position:relative;
+  }
+  .mobile-box-moviecard{
+    position:absolute;
+    top:67%;
+    left:25%;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+  .mobile-box{
+    position:relative;
+  }
+  .mobile-box-moviecard{
+    position:absolute;
+    top:67%;
+    left:12%;
+  }
+}
+@media only screen and (min-width:992.1px) and (max-width:1200px){
+  .mobile-box{
+    position:relative;
+  }
+  .mobile-box-moviecard{
+    position:absolute;
+    top:67%;
+    left:21%;
+  }
+}
+@media only screen and (min-width:1200.1px) and (max-width:1400px){
+  .mobile-box{
+    position:relative;
+  }
+  .mobile-box-moviecard{
+    position:absolute;
+    top:67%;
+    left:28%;
+  }
+}
+@media only screen and (min-width:1400.1px) {
+  .mobile-box{
+    position:relative;
+  }
+  .mobile-box-moviecard{
+    position:absolute;
+    top:67%;
+    left:29%;
+  }
+}
 @media (max-width: 575.98px) {
   .downloading-movies {
     display: flex;
@@ -12342,6 +12431,33 @@ textarea.form-control-lg {
 
   .kids-get-started {
     max-width: 90%;
+  }
+}
+#footer {
+  color: #757575;
+}
+#footer p {
+  margin-top: calc(1.425rem + 2.1vw);
+}
+#footer .footer-title a {
+  text-decoration: none;
+}
+#footer .footer-title li {
+  list-style: none;
+  font-size: 0.83rem;
+  color: #757575;
+}
+#footer .footer-title p:last-child {
+  font-size: 0.83rem;
+}
+
+@media (max-width: 575.98px) {
+  .footer-title {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-title div {
+    width: 50%;
   }
 }
 
