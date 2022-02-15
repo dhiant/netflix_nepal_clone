@@ -12114,7 +12114,6 @@ textarea.form-control-lg {
 }
 #top-section {
   border-bottom: 8px solid #222;
-  transform: scale(1.01);
 }
 
 .cover {
@@ -12155,7 +12154,7 @@ textarea.form-control-lg {
   .get-started {
     position: absolute;
     top: 37%;
-    left: 22%;
+    left: 25%;
     right: 50%;
   }
 }
