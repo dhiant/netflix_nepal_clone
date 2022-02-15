@@ -12114,6 +12114,7 @@ textarea.form-control-lg {
 }
 #top-section {
   border-bottom: 8px solid #222;
+  transform: scale(1.01);
 }
 
 .cover {
@@ -12448,7 +12449,7 @@ textarea.form-control-lg {
   color: #757575;
 }
 #footer .footer-title p:last-child {
-  font-size: 0.83rem;
+  font-size: 0.93rem;
 }
 
 @media (max-width: 575.98px) {
